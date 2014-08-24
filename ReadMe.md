@@ -22,19 +22,19 @@ Following are the main tasks and sub-task that the analysis script performed:
 	- 1.d: Merge training and testing data into a unified data set
 
 3. Task: 2 - Extracts only the measurements on the mean and standard deviation for each measurement. 
-	-2.a: Reads Features data set (features.txt)
-	-2.b: Extracts column names with regular expression ".*mean.*" or ".*std.*" 
-	-2.c: Creates new data set with selected variables
+	- 2.a: Reads Features data set (features.txt)
+	- 2.b: Extracts column names with regular expression ".*mean.*" or ".*std.*" 
+	- 2.c: Creates new data set with selected variables
 
 4. Task: 3 - Uses descriptive activity names to name the activities in the data set
-	-3.a: Reads activity labels from file (activity_labels.txt)
-	-3.b: Modify the activity with in the extracted data set
+	- 3.a: Reads activity labels from file (activity_labels.txt)
+	- 3.b: Modify the activity with in the extracted data set
 
 5. Task: 4 - Appropriately labels the data set with descriptive variable names.
-	-4.a: Substitute column name with "mean()"/meanFreq() to "mean"/meanFreq and "std()" to "stdDev"
-	-4.b: Change variable names to appropriate labels
+	- 4.a: Substitute column name with "mean()"/meanFreq() to "mean"/meanFreq and "std()" to "stdDev"
+	- 4.b: Change variable names to appropriate labels
 
 6. Task: 5 - Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-	-5.a: Aggregating extracted data over multiple measurement columns 
-	-5.b: Sorting the tidy data with respect to subject identities
-	-5.c: Writing tidy data to a .txt file
+	- 5.a: Aggregating extracted data over multiple measurement columns 
+	- 5.b: Sorting the tidy data with respect to subject identities
+	- 5.c: Writing tidy data to a .txt file
